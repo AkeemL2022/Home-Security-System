@@ -1346,8 +1346,89 @@
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
                 id="66ee2fe4-1d43-4e95-a722-99248afc0b9c" name="System" representedInstance="#80c69bc1-b102-457b-a25a-d900dcf1f0bf"/>
           </ownedScenarios>
+          <ownedScenarios xsi:type="org.polarsys.capella.core.data.interaction:Scenario"
+              id="5298b367-c81b-4974-a71d-16572906f0be" name="[ES] Monitor Desired Area"
+              kind="DATA_FLOW">
+            <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
+                id="b67bc923-7701-4eea-af76-5e72a251761a" name="Authorized User" representedInstance="#d7f38f79-dbd9-46e0-bb06-29c5b3d59b06"/>
+            <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
+                id="94bbfc20-dd1a-45a0-a165-10c957275b2b" name="System" representedInstance="#80c69bc1-b102-457b-a25a-d900dcf1f0bf"/>
+            <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
+                id="0829e320-f6c8-4dff-b45a-474a9886135e" name="Intruder" representedInstance="#f2072ad6-067f-412a-ab74-e720162e60f5"/>
+            <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
+                id="191633f5-b841-4449-8443-34601ebf58c0" name="Law Enforcement" representedInstance="#593e99fb-439b-4ca5-bb65-e5ba51b446ac"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="769e5e87-a93d-46c1-8b17-908498149134" name="Wireless Security Panel Turns On"
+                coveredInstanceRoles="#94bbfc20-dd1a-45a0-a165-10c957275b2b" relatedAbstractFunction="#ef302b98-11ee-4496-bc9f-9ec19ebac16c"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="155e4754-bd6f-4245-b32c-f1c9a5b1fdd2" name="Powers on the Wireless Security Panel"
+                coveredInstanceRoles="#b67bc923-7701-4eea-af76-5e72a251761a" relatedAbstractFunction="#d49746db-c59a-4e43-badc-cb9e661fd77b"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="6b92eca9-19d6-4d8f-b503-839936e8fc93" name="Wireless Security Panel Turns On"
+                coveredInstanceRoles="#94bbfc20-dd1a-45a0-a165-10c957275b2b" relatedAbstractFunction="#ef302b98-11ee-4496-bc9f-9ec19ebac16c"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="2e34122a-084f-41ab-83f2-7d0d37d2191d" name="Powers on the Wireless Security Panel"
+                coveredInstanceRoles="#b67bc923-7701-4eea-af76-5e72a251761a" relatedAbstractFunction="#d49746db-c59a-4e43-badc-cb9e661fd77b"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="75b2a6c2-23ad-4167-9bf4-935b532afd4b" name="Type in Pin Number"
+                coveredInstanceRoles="#b67bc923-7701-4eea-af76-5e72a251761a" relatedAbstractFunction="#eb9c9c0a-bd56-447f-9627-b5aa9c39c34c"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="8616a132-7bb0-4de3-9ac2-3135decb00a5" name="Wireless Panel Recieves Trigger Signals"
+                coveredInstanceRoles="#94bbfc20-dd1a-45a0-a165-10c957275b2b" relatedAbstractFunction="#77186a65-c440-4dbe-af4d-1edbd44d9408"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="364e3745-d69f-4f4a-a5be-dc3a397cbe01" name="Type in Pin Number"
+                coveredInstanceRoles="#b67bc923-7701-4eea-af76-5e72a251761a" relatedAbstractFunction="#eb9c9c0a-bd56-447f-9627-b5aa9c39c34c"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="9d5fd20d-865f-4149-be10-e4b0f5be4c5a" name="Wireless Panel Recieves Trigger Signals"
+                coveredInstanceRoles="#94bbfc20-dd1a-45a0-a165-10c957275b2b" relatedAbstractFunction="#77186a65-c440-4dbe-af4d-1edbd44d9408"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="059f4776-c58a-4870-9de0-a3c78f9a6f48" name="Checks configuration settings"
+                coveredInstanceRoles="#b67bc923-7701-4eea-af76-5e72a251761a" relatedAbstractFunction="#de3ddf7d-0257-47f8-94bf-611aafdd2c31"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="c86c3fb3-bbba-4e59-9b7f-d89fab16af48" name="Sensors actively monitors home"
+                coveredInstanceRoles="#94bbfc20-dd1a-45a0-a165-10c957275b2b" relatedAbstractFunction="#7f76faa4-ff07-4660-b5d6-779b1d0f44cf"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="e3f7ecd1-cf7d-4d14-b72a-39c226d6852c" name="Checks configuration settings"
+                coveredInstanceRoles="#b67bc923-7701-4eea-af76-5e72a251761a" relatedAbstractFunction="#de3ddf7d-0257-47f8-94bf-611aafdd2c31"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="e9069880-97b1-48f0-bc88-e570d1cfe2aa" name="Sensors actively monitors home"
+                coveredInstanceRoles="#94bbfc20-dd1a-45a0-a165-10c957275b2b" relatedAbstractFunction="#7f76faa4-ff07-4660-b5d6-779b1d0f44cf"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="fcdc274d-87e9-4fe3-9699-72206c860ef8" name="Activates Sensors"
+                coveredInstanceRoles="#b67bc923-7701-4eea-af76-5e72a251761a" relatedAbstractFunction="#f6c5e71e-c4af-4afd-a301-b628be4bb258"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionState"
+                id="e7c30e6e-db1d-4b55-ae9f-da9e2f9556e9" name="Activates Sensors"
+                coveredInstanceRoles="#b67bc923-7701-4eea-af76-5e72a251761a" relatedAbstractFunction="#f6c5e71e-c4af-4afd-a301-b628be4bb258"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="8f609504-da30-4496-a769-f7b5f4d977e4" start="#155e4754-bd6f-4245-b32c-f1c9a5b1fdd2"
+                finish="#2e34122a-084f-41ab-83f2-7d0d37d2191d" relatedAbstractFunction="#d49746db-c59a-4e43-badc-cb9e661fd77b"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="54c9cb88-4901-46ff-954d-70cddd7573a1" start="#059f4776-c58a-4870-9de0-a3c78f9a6f48"
+                finish="#e3f7ecd1-cf7d-4d14-b72a-39c226d6852c" relatedAbstractFunction="#de3ddf7d-0257-47f8-94bf-611aafdd2c31"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="d7a11996-0cfe-4ee9-a3df-65f180f83c30" start="#75b2a6c2-23ad-4167-9bf4-935b532afd4b"
+                finish="#364e3745-d69f-4f4a-a5be-dc3a397cbe01" relatedAbstractFunction="#eb9c9c0a-bd56-447f-9627-b5aa9c39c34c"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="3df85d8a-7633-45b5-9891-3bd6913e00d7" start="#fcdc274d-87e9-4fe3-9699-72206c860ef8"
+                finish="#e7c30e6e-db1d-4b55-ae9f-da9e2f9556e9" relatedAbstractFunction="#f6c5e71e-c4af-4afd-a301-b628be4bb258"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="7fbd1df6-8d43-414e-93d0-bdbb97f6eac9" start="#8616a132-7bb0-4de3-9ac2-3135decb00a5"
+                finish="#9d5fd20d-865f-4149-be10-e4b0f5be4c5a" relatedAbstractFunction="#77186a65-c440-4dbe-af4d-1edbd44d9408"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="4306b43d-1419-4407-9cf5-2562ca939fec" start="#c86c3fb3-bbba-4e59-9b7f-d89fab16af48"
+                finish="#e9069880-97b1-48f0-bc88-e570d1cfe2aa" relatedAbstractFunction="#7f76faa4-ff07-4660-b5d6-779b1d0f44cf"/>
+            <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:StateFragment"
+                id="2fe52960-f991-49a3-ab8c-48ad65eec74d" start="#769e5e87-a93d-46c1-8b17-908498149134"
+                finish="#6b92eca9-19d6-4d8f-b503-839936e8fc93" relatedAbstractFunction="#ef302b98-11ee-4496-bc9f-9ec19ebac16c"/>
+          </ownedScenarios>
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
               id="a3e4794c-3236-447d-9467-b7f82b414030" involved="#90ba4988-2e1a-4016-bc2e-ff2b50ea49f3"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="c3b68085-20f6-41ea-86e8-cc6879a8957f" involved="#33b18548-f180-47be-8e55-5c523163e269"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="b86d8a8b-f94f-4a78-b634-33c1c4e71ff1" involved="#1d337277-f1f6-4eef-9a8b-9675b1f25efa"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="65a14585-ddea-43dc-96da-5afc37796215" involved="#d8b0995e-b7fb-4d3b-baa4-2ff98c45fc0a"/>
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="75de2887-894c-44f1-8426-dd510774d22b" name="Unattended Enforcement Action">
