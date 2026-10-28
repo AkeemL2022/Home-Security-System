@@ -68,11 +68,11 @@
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg" href="Practice.capella#9aefa1f3-f1a2-4e0f-a89b-bfab59bb183c"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_G-XVsMEUEfG5LZYOlXfE9g" name="[SAB] Architecture View Of Intruder Break-In" repPath="#_G-RPEMEUEfG5LZYOlXfE9g" changeId="1793127290856">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_G-XVsMEUEfG5LZYOlXfE9g" name="[SAB] Architecture View Of Intruder Break-In" repPath="#_G-RPEMEUEfG5LZYOlXfE9g" changeId="1793162772218">
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg" href="Practice.capella#25503d10-b109-411b-827f-14e707896eb3"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_hjIcENDyEfGn3bQdUZ1UBQ" name="[SDFB] Root System Function" repPath="#_hjExsNDyEfGn3bQdUZ1UBQ" changeId="1793151223132">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_hjIcENDyEfGn3bQdUZ1UBQ" name="[SDFB] Root System Function" repPath="#_hjExsNDyEfGn3bQdUZ1UBQ" changeId="1793162712979">
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Data%20Flow%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Practice.capella#3f35939c-cb26-4c7e-bfc4-377e348fbf08"/>
       </ownedRepresentationDescriptors>
@@ -3977,7 +3977,7 @@
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dUIAUtI3EfGtoITXHkm5vg"/>
                 </children>
                 <styles xmi:type="notation:ShapeStyle" xmi:id="_dTnqAdI3EfGtoITXHkm5vg" fontName="Segoe UI" fontHeight="8"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dTnqAtI3EfGtoITXHkm5vg" x="3" y="29" width="10" height="10"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dTnqAtI3EfGtoITXHkm5vg" x="102" y="-2" width="10" height="10"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_V6y4wcUNEfG-zqfhRuIDGw" fontColor="3038217" fontName="Segoe UI" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V6y4wsUNEfG-zqfhRuIDGw" x="73" y="754" width="146" height="91"/>
@@ -6478,17 +6478,17 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_dUQjMNI3EfGtoITXHkm5vg" type="4001" element="_eM0OpMUMEfG-zqfhRuIDGw" source="_eNlDo8UMEfG-zqfhRuIDGw" target="_dTnqANI3EfGtoITXHkm5vg">
           <children xmi:type="notation:Node" xmi:id="_dURxUNI3EfGtoITXHkm5vg" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dURxUdI3EfGtoITXHkm5vg" x="120" y="121"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dURxUdI3EfGtoITXHkm5vg" x="138" y="51"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_dUS_cNI3EfGtoITXHkm5vg" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dUS_cdI3EfGtoITXHkm5vg" x="35" y="-152"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dUS_cdI3EfGtoITXHkm5vg" x="24" y="-152"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_dUTmgNI3EfGtoITXHkm5vg" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dUTmgdI3EfGtoITXHkm5vg" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dUTmgdI3EfGtoITXHkm5vg" x="-136" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_dUQjMdI3EfGtoITXHkm5vg" routing="Rectilinear" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_dUQjMtI3EfGtoITXHkm5vg" fontColor="16777215" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dUQjM9I3EfGtoITXHkm5vg" points="[3, 0, -373, -216]$[155, 0, -221, -216]$[155, 111, -221, -105]$[225, 111, -151, -105]$[225, 216, -151, 0]$[371, 216, -5, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dUQjM9I3EfGtoITXHkm5vg" points="[3, 0, -477, -185]$[155, 0, -325, -185]$[155, 111, -325, -74]$[225, 111, -255, -74]$[225, 142, -255, -43]$[480, 142, 0, -43]$[480, 180, 0, -5]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dUUNkNI3EfGtoITXHkm5vg" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dUUNkdI3EfGtoITXHkm5vg" id="(0.5,0.5)"/>
         </edges>
@@ -6609,7 +6609,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@subNodeMappings[name='CA%20System%20Function']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" uid="_V6gkwMUNEfG-zqfhRuIDGw" name="Sensors actively monitors home" width="5" height="5" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_V6gkwMUNEfG-zqfhRuIDGw" name="Wireless Panel receives trigger signal" width="5" height="5" resizeKind="NSEW">
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Practice.capella#77186a65-c440-4dbe-af4d-1edbd44d9408"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Practice.capella#77186a65-c440-4dbe-af4d-1edbd44d9408"/>
         <ownedBorderedNodes xmi:type="diagram:DNode" uid="_X2nsJMUNEfG-zqfhRuIDGw" name="FIP 1" incomingEdges="_X2nsKMUNEfG-zqfhRuIDGw" width="1" height="1">
@@ -8020,7 +8020,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_2:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@edgeMappings[name='CA%20DataFlow%20between%20Function']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_eM0OpMUMEfG-zqfhRuIDGw" name="Sensors are on" sourceNode="_eMuIAMUMEfG-zqfhRuIDGw" targetNode="_eM0OoMUMEfG-zqfhRuIDGw" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_eM0OpMUMEfG-zqfhRuIDGw" name="Sensors are monitoring home" sourceNode="_eMuIAMUMEfG-zqfhRuIDGw" targetNode="_eM0OoMUMEfG-zqfhRuIDGw" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Practice.capella#1688f5f3-6ddc-480f-b3c2-7bfef779bd21"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Practice.capella#1688f5f3-6ddc-480f-b3c2-7bfef779bd21"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_eM0OpcUMEfG-zqfhRuIDGw" targetArrow="NoDecoration" routingStyle="manhattan" centered="Both" strokeColor="9,92,46">
@@ -21188,7 +21188,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_2:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Data%20Flow%20Blank']/@defaultLayer/@containerMappings[name='SDFB_Function']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Re3YIND7EfGn3bQdUZ1UBQ" name="Sensors actively monitors home">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Re3YIND7EfGn3bQdUZ1UBQ" name="Wireless Panel receives trigger signal">
       <target xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Practice.capella#77186a65-c440-4dbe-af4d-1edbd44d9408"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Practice.capella#77186a65-c440-4dbe-af4d-1edbd44d9408"/>
       <ownedBorderedNodes xmi:type="diagram:DNode" uid="_RgX0A9D7EfGn3bQdUZ1UBQ" name="FIP 1" incomingEdges="_RhOIkND7EfGn3bQdUZ1UBQ" width="1" height="1">
@@ -22954,7 +22954,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_2:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Data%20Flow%20Blank']/@defaultLayer/@edgeMappings[name='SDFB_Exchange']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_dREFUNI3EfGtoITXHkm5vg" name="Sensors are on" sourceNode="_RgV-1ND7EfGn3bQdUZ1UBQ" targetNode="_dQgroNI3EfGtoITXHkm5vg" beginLabel="." endLabel=".">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_dREFUNI3EfGtoITXHkm5vg" name="Sensors are monitoring home" sourceNode="_RgV-1ND7EfGn3bQdUZ1UBQ" targetNode="_dQgroNI3EfGtoITXHkm5vg" beginLabel="." endLabel=".">
       <target xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Practice.capella#1688f5f3-6ddc-480f-b3c2-7bfef779bd21"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.fa:FunctionalExchange" href="Practice.capella#1688f5f3-6ddc-480f-b3c2-7bfef779bd21"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_dREsUNI3EfGtoITXHkm5vg" targetArrow="NoDecoration" centered="Both" strokeColor="9,92,46">

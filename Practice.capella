@@ -844,7 +844,7 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="d42ace65-c8c8-4edc-91f0-0d03acedd322" name="SystemFunction 21"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="77186a65-c440-4dbe-af4d-1edbd44d9408" name="Sensors actively monitors home">
+              id="77186a65-c440-4dbe-af4d-1edbd44d9408" name="Wireless Panel receives trigger signal">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="b0e60174-2955-42ac-ab64-556e2d5aaee8" name="FIP 1"/>
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
@@ -1185,8 +1185,8 @@
               id="d2faa9c3-4f42-4262-95f5-fa1c5ccbd139" name="User Selects A response"
               target="#0bc2df14-a957-4baf-b26c-05e971f4a318" source="#866c0214-470c-404d-8239-4a9a01edd2a9"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="1688f5f3-6ddc-480f-b3c2-7bfef779bd21" name="Sensors are on" target="#7c164e29-752c-4ab6-baf2-8a2f905cb7de"
-              source="#9391737b-efcf-4d66-af28-002a072f72a1"/>
+              id="1688f5f3-6ddc-480f-b3c2-7bfef779bd21" name="Sensors are monitoring home"
+              target="#7c164e29-752c-4ab6-baf2-8a2f905cb7de" source="#9391737b-efcf-4d66-af28-002a072f72a1"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="a037f748-ae18-4faa-8699-5d4f1786a727" name="Sensors detects Intruder"
               target="#b0e60174-2955-42ac-ab64-556e2d5aaee8" source="#c4a57846-a356-4b07-9539-8afe59b18bdd"/>
@@ -1383,8 +1383,9 @@
                 kind="ASYNCHRONOUS_CALL" sendingEnd="#45a8b52f-b1f7-4163-91cc-106df6ed7d4a"
                 receivingEnd="#b985bd52-2949-482c-af6e-62647d4f5f44"/>
             <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
-                id="4cf8c037-356a-4568-93e3-6ff141fc0078" name="Sensors are on" kind="ASYNCHRONOUS_CALL"
-                sendingEnd="#b1c755bb-dcf9-47aa-8931-2b546b91fee6" receivingEnd="#605ab79a-ee0a-4f12-98e6-2bf0962d39bf"/>
+                id="4cf8c037-356a-4568-93e3-6ff141fc0078" name="Sensors are monitoring home"
+                kind="ASYNCHRONOUS_CALL" sendingEnd="#b1c755bb-dcf9-47aa-8931-2b546b91fee6"
+                receivingEnd="#605ab79a-ee0a-4f12-98e6-2bf0962d39bf"/>
             <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
                 id="b39782e2-b369-4140-9a2b-586babca6a7e" name="Sensors detects Intruder"
                 kind="ASYNCHRONOUS_CALL" sendingEnd="#7debb070-05ac-4e43-8078-39fed133c8e6"
@@ -1987,8 +1988,9 @@
                 kind="ASYNCHRONOUS_CALL" sendingEnd="#504d58d3-ea85-4d83-9540-9a6cf07a1dbb"
                 receivingEnd="#d41a6587-e20c-499c-8c4e-4949cb14b5ba"/>
             <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
-                id="976c52c0-f203-428c-90b6-bb15fcac4564" name="Sensors are on" kind="ASYNCHRONOUS_CALL"
-                sendingEnd="#d7abf475-f2a4-485a-81eb-7151cdc97349" receivingEnd="#54eabed6-44ef-4129-837b-00e07b30d847"/>
+                id="976c52c0-f203-428c-90b6-bb15fcac4564" name="Sensors are monitoring home"
+                kind="ASYNCHRONOUS_CALL" sendingEnd="#d7abf475-f2a4-485a-81eb-7151cdc97349"
+                receivingEnd="#54eabed6-44ef-4129-837b-00e07b30d847"/>
             <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
                 id="7969ac65-dcb3-4682-8b2d-f9f19acdacf1" name="Sensors detects Intruder"
                 kind="ASYNCHRONOUS_CALL" sendingEnd="#ba2ee3f0-0391-4b69-aebb-93bd2f89a73c"
@@ -3782,8 +3784,9 @@
                 kind="ASYNCHRONOUS_CALL" sendingEnd="#ba60c737-78e2-4fbc-a87f-e3343c082414"
                 receivingEnd="#d09f91ae-2d22-4f04-8995-029bf51567d7"/>
             <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
-                id="7fd4a0f7-6d61-4baa-881d-c6386a2c885f" name="Sensors are on" kind="ASYNCHRONOUS_CALL"
-                sendingEnd="#05989bfa-aefa-400e-b7a3-ab1d7f35fd54" receivingEnd="#217f5367-6542-4f70-b952-60c8681bf452"/>
+                id="7fd4a0f7-6d61-4baa-881d-c6386a2c885f" name="Sensors are monitoring home"
+                kind="ASYNCHRONOUS_CALL" sendingEnd="#05989bfa-aefa-400e-b7a3-ab1d7f35fd54"
+                receivingEnd="#217f5367-6542-4f70-b952-60c8681bf452"/>
             <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
                 id="050cbb9f-e8ad-4a66-a563-50ab0d5aa60d" name="Sensors detects Intruder"
                 kind="ASYNCHRONOUS_CALL" sendingEnd="#7a93fa18-4f21-4802-8ed6-5b4b39b6065c"
