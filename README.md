@@ -5,7 +5,7 @@ The Home Security System is a work-in-progress systems engineering project focus
 ## System Concept and Planned Sensors
 The proposed system may incorporate the following sensors and components:
 
-- **Tracking device:** Intended to support tracking or monitoring an individual's movement. Its specific role and implementation remain under investigation.
+- **Tracking device:** Intended to support tracking an individual to a certain distance outside of secured area. Its specific role and implementation remain under investigation.
 - **Biometric sensor:** Intended to explore fingerprint-based identification.
 - **Ultrasonic sensor:** Intended to investigate distance measurement and its potential use in estimating a person's height.
 - **Joystick sensor:** Under consideration; its intended function within the system has not yet been defined.
@@ -26,5 +26,4 @@ Hardware platforms, sensors, programming languages, and communication technologi
 
 ## Project Status
 **Status: Work in Progress**
-
 The project is currently focused on operational analysis, system analysis, and identifying potential sensors and technologies. Implementation decisions will follow as the system's requirements, architecture, and technical feasibility are investigated.
