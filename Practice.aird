@@ -72,7 +72,7 @@
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg" href="Practice.capella#25503d10-b109-411b-827f-14e707896eb3"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_hjIcENDyEfGn3bQdUZ1UBQ" name="[SDFB] Root System Function" repPath="#_hjExsNDyEfGn3bQdUZ1UBQ" changeId="1793128609647">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_hjIcENDyEfGn3bQdUZ1UBQ" name="[SDFB] Root System Function" repPath="#_hjExsNDyEfGn3bQdUZ1UBQ" changeId="1793151223132">
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Data%20Flow%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="Practice.capella#3f35939c-cb26-4c7e-bfc4-377e348fbf08"/>
       </ownedRepresentationDescriptors>
@@ -18999,7 +18999,7 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RohqctD7EfGn3bQdUZ1UBQ"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_RoTA8dD7EfGn3bQdUZ1UBQ" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RoTA8tD7EfGn3bQdUZ1UBQ" x="-2" y="3" width="10" height="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RoTA8tD7EfGn3bQdUZ1UBQ" x="-2" y="50" width="10" height="10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_RoZHkND7EfGn3bQdUZ1UBQ" type="3012" element="_RgjaM9D7EfGn3bQdUZ1UBQ">
             <children xmi:type="notation:Node" xmi:id="_RoZHk9D7EfGn3bQdUZ1UBQ" visible="false" type="5010">
@@ -20320,17 +20320,17 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_Rx2lmND7EfGn3bQdUZ1UBQ" type="4001" element="_RhU2SND7EfGn3bQdUZ1UBQ" source="_RnvnUND7EfGn3bQdUZ1UBQ" target="_RoTA8ND7EfGn3bQdUZ1UBQ">
           <children xmi:type="notation:Node" xmi:id="_Rx3MoND7EfGn3bQdUZ1UBQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rx3ModD7EfGn3bQdUZ1UBQ" x="3" y="-3"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rx3ModD7EfGn3bQdUZ1UBQ" x="44" y="28"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Rx3MotD7EfGn3bQdUZ1UBQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rx3Mo9D7EfGn3bQdUZ1UBQ" x="-4" y="-1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rx3Mo9D7EfGn3bQdUZ1UBQ" x="-5" y="-1"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Rx3MpND7EfGn3bQdUZ1UBQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rx3MpdD7EfGn3bQdUZ1UBQ" x="-2"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rx3MpdD7EfGn3bQdUZ1UBQ" x="-2" y="-1"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Rx2lmdD7EfGn3bQdUZ1UBQ" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Rx2lmtD7EfGn3bQdUZ1UBQ" fontColor="16777215" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Rx2lm9D7EfGn3bQdUZ1UBQ" points="[5, -4, -134, 86]$[134, -87, -5, 3]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Rx2lm9D7EfGn3bQdUZ1UBQ" points="[5, -2, -134, 41]$[134, -42, -5, 1]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Rx3MptD7EfGn3bQdUZ1UBQ" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Rx3Mp9D7EfGn3bQdUZ1UBQ" id="(0.5,0.5)"/>
         </edges>
