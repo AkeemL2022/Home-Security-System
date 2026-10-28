@@ -40,6 +40,8 @@ try:
         print(capability.get_name())
         # here we call a query from the semantic browser
         for exchange in capella_query_by_name(capability, "Involved Exchanges", FunctionalExchange):
+            print(exchange)
+            '''
             if need_style_change(exchange):
                 print("  - " + exchange.get_name())
                 for diagram in exchange.get_representing_diagrams():
@@ -48,6 +50,7 @@ try:
                     for representation_element in diagram.get_java_object().getRepresentation().getOwnedRepresentationElements():
                         if representation_element.getTarget() == exchange.get_java_object():
                             change_diagram_element_style(representation_element)
+            '''
 except:
     # if something went wrong we rollback the transaction
     model.rollback_transaction()
